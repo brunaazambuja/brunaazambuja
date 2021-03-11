@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Linkedin](https://img.shields.io/badge/-brunaazambuja-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brunaazambuja/)](https://www.linkedin.com/in/brunaazambuja/)
+
+
+![Rodrigo Xavier github stats](https://github-readme-stats.vercel.app/api?username=brunaazambuja&show_icons=true&theme=dark)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brunaazambuja&layout=compact&langs_count=15)](https://github.com/brunaazambuja/github-readme-stats)
