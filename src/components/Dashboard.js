@@ -2,6 +2,7 @@ import React from "react";
 import { FiMail, FiArrowUp } from 'react-icons/fi';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
+import back from '../assets/vista.jpg';
 import landingMe from '../assets/perfil.jpg';
 import { Container, PresentationCard, Landing, Footer } from './styles/Dashboard';
 import Reviews from "./Reviews";
@@ -13,6 +14,7 @@ const Dashboard = () => {
   return (
     <Container>
       <Landing>
+        <img src={back} alt="back" className="back" />
         <PresentationCard>
           <img src={landingMe} alt="" />
           <h1>Bruna Azambuja</h1>

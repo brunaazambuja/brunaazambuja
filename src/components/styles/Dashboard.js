@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import back from '../../assets/top_sider_bg.jpg';
 import cssQuery from '../../utils/responsiveQueries';
 
 export const Container = styled.div`
@@ -91,7 +90,7 @@ export const PresentationCard = styled.div`
 
 export const Landing = styled.section`
   height: 85vh;
-  background: url(${back});
+  .back { opacity: 0.3; width: 100%; height: 85vh; }
   position: relative;
 `
 
