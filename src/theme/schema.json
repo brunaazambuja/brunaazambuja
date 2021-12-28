@@ -1,0 +1,14 @@
+{
+  "body": "#1E2326",
+  "text": "#fff",
+  "color": "#00b9bc",
+  "light_color": "#252A2E",
+  "button": {
+    "text": "#fff",
+    "hover": "#038d8f"
+  },
+  "link": {
+    "text": "teal",
+    "opacity": 1
+  }
+}
