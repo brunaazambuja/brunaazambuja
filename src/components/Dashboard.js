@@ -9,6 +9,7 @@ import Reviews from "./Reviews";
 import Skills from "./Skills";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
+import Resume from "./Resume";
 
 const Dashboard = () => {
   return (
@@ -32,6 +33,7 @@ const Dashboard = () => {
       <Skills />
       <Reviews />
       <Portfolio />
+      <Resume />
 
       <Footer>
         <div className="up"><FiArrowUp onClick={() => window.scrollTo(0, 0)} /></div>

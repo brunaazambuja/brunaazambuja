@@ -19,7 +19,7 @@ export const Container = styled.div`
     }
   }
   p { margin-bottom: 20px; font-weight: lighter; }
-`;
+`
 
 export const PresentationCard = styled.div`
   width: 28rem;
@@ -86,7 +86,7 @@ export const PresentationCard = styled.div`
       }
     }
   }
-`;
+`
 
 export const Landing = styled.section`
   height: 85vh;
@@ -129,7 +129,7 @@ export const AboutMeContainer = styled.section`
           border-radius: 5px; 
           padding: 0 10px;
         }
-        @media (max-width: ${cssQuery('phone')}) { flex-direction: column; } 
+        @media (max-width: ${cssQuery('phone')}) { flex-direction: column; gap: 0; } 
       }
     }
     .interests {
@@ -278,7 +278,7 @@ export const PortfolioContainer = styled.div`
 `
 
 export const Footer = styled.div`
-  background-color: ${({ theme }) => theme.body};
+  background-color: ${({ theme }) => theme.light_color};
   height: 10rem;
   display: flex;
   flex-direction: column;
@@ -325,5 +325,47 @@ export const Footer = styled.div`
       }
     }
   }
+`
 
+export const ResumeContainer = styled.section`
+  background-color: ${({ theme }) => theme.body};
+  padding: 2rem 15%;
+  @media (max-width: ${cssQuery('tablet')}) { padding: 2rem; } 
+  position: relative;
+  min-height: 50rem;
+  strong { color: ${({ theme }) => theme.color}; }
+
+  .line { 
+    height: 35rem;
+    width: 3px;
+    background: ${({ theme }) => theme.color};
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+   .card {
+    background-color: ${({ theme }) => theme.light_color};
+    border-radius: 20px;
+    box-shadow: -1rem 0 3rem rgb(0 0 0 / 20%);
+    height: 7rem;  
+    padding: 1rem;
+    position: absolute;
+    p { color: ${({ theme }) => theme.color}; }
+    &:hover { 
+      background-color: #005d5e; 
+      transition: all 0.5s ease 0s;
+    }
+    @media (max-width: ${cssQuery('phone')}) { 
+      font-size: 15px; 
+      padding: 10px 5px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p { margin: 0; }
+    } 
+  }
+  .left { right: 52%; }
+  .right { left: 52%; }
 `

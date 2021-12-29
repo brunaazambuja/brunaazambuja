@@ -30,7 +30,7 @@ const AboutMe = () => {
           <div><strong>Telefone para contato</strong><p>(61) 99271-6277</p></div>
           <div><strong>E-mail</strong><p>brunazambuja@outlook.com</p></div>
           <div><strong>Nacionalidade</strong><p>Brasileira - Brasília/DF</p></div>
-          <div><strong>Status</strong><span>Desenvolvedora da Tukey Data</span></div>
+          <div><strong>Status</strong><span>Desenvolvedora Fullstack da Tukey Data</span></div>
         </div>
         <div className="interests">
           <h5>Meus Interesses</h5>

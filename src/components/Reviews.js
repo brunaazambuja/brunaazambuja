@@ -4,6 +4,7 @@ import kathy from '../assets/kathy.jpeg';
 import alan from '../assets/alan.jpeg';
 import erick from '../assets/erick.jpeg';
 import guga from '../assets/guga.jpeg';
+import marcelo from '../assets/marcelo.jpeg';
 import mario from '../assets/mario.jpeg';
 import { ReviewsContainer } from './styles/Dashboard';
 
@@ -34,6 +35,9 @@ const Reviews = () => {
           She asks good questions, is a great collaborator. I looked forward to every interaction I had with Bruna!
           I know Bruna is going to have a wonderful and rich career ahead of her and I will feel lucky if I get 
           to work with her again. Thanks for all of the amazing work you did, Bruna!"</p>
+          <img src={marcelo} alt="marcelo" />
+          <p><strong>Marcelo Fleury - Sócio Tukey Data</strong> "Nossa tech lead sempre proativa. 
+          Planejando, marcando reuniões, desenvolvendo com a gente, carregando a equipe."</p>
         </div>
         <div className="profile">
           <img src={guga} alt="guga" />
