@@ -95,7 +95,7 @@ export const Landing = styled.section`
 `
 
 export const AboutMeContainer = styled.section`
-  padding: 2rem 20%;
+  padding: 2rem 15vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -190,7 +190,7 @@ export const SkillsContainer = styled.section`
 `
 
 export const ReviewsContainer = styled.section`
-  padding: 2rem 20%;
+  padding: 2rem 10vw;
   position: relative;
   background-color: ${({ theme }) => theme.body};
 
@@ -229,7 +229,7 @@ export const ReviewsContainer = styled.section`
 `
 
 export const PortfolioContainer = styled.div`
-  padding: 2rem 15%;
+  padding: 2rem 15vw;
   position: relative;
   background-color: ${({ theme }) => theme.light_color};
 
@@ -263,7 +263,7 @@ export const PortfolioContainer = styled.div`
 
       img {
         height: 15rem;
-        width: 20rem;
+        width: 20vw;
         border-radius: 20px;
       }
       &:hover {
