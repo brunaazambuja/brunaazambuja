@@ -265,6 +265,8 @@ export const PortfolioContainer = styled.div`
         height: 15rem;
         width: 20vw;
         border-radius: 20px;
+        @media (max-width: ${cssQuery('tablet')}) { width: 40vw; } 
+        @media (max-width: ${cssQuery('phone')}) { width: 80vw; } 
       }
       &:hover {
         background-color: ${({ theme }) => theme.color};

@@ -23,17 +23,14 @@ const Resume = () => {
         <strong>Freelancer React Js</strong> - Professor Ari <p>(02/2021 - 04/2021)</p>
       </div>
       <div className="card right" style={{ top: "28rem" }}>
-        <strong>Monitora de Python</strong> - Voluntária do Instituto Glória <p>(02/2021)</p>
+        <strong>Auxiliar de Pesquisa</strong> - com Menção Honrosa: UnB <p>(07/2019 - 12/2021)</p>
       </div>
       <div className="card left" style={{ top: "34rem" }}>
-        <strong>Desenvolvedora Fullstack</strong> - Tukey Data <p>(08/2021 - atualmente)</p>
+        <strong>Egenheira de Software</strong> - Instituto Glória &#38; Microsoft <p>(10/2021 - atualmente)</p>
       </div>
       <div className="card right" style={{ top: "36rem" }}>
-        <strong>Egenheira de Software</strong> - Instituto Glória e Microsoft <p>(10/2021 - atualmente)</p>
+        <strong>Desenvolvedora Fullstack e TechLead</strong> - Tukey Data <p>(08/2021 - atualmente)</p>
       </div>
-
-
-      
     </ResumeContainer>
   );
 };

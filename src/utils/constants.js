@@ -6,6 +6,7 @@ import p4g from '../assets/p4g.png'
 import mcsft from '../assets/mcsft.png'
 import gloria from '../assets/gloria.jpeg'
 import prize_ceia from '../assets/prize_ceia.jpg'
+import monitora from '../assets/python_monitora.jpg'
 import deeplearning_certificate from '../assets/deeplearning_certificate.png'
 
 export const cadeomw_body = (
@@ -36,7 +37,10 @@ export const p4g_body = (
   fui encarregada de desenvolver inteiramente o website do programa. Que contém formulário de inscrição e edição das 
   equipes que farão parte do projeto de 2022. Assim como o mecanismo de seleção do administrador às equipes escolhidas.</p>
   <Button onClick={() => window.open('https://power4girls.com.br')}>Visitar!</Button><img src={p4g} alt="p4g" />
-  <p>Os frameworks utilizados foram ReactJS para frontend e NodeJs para backend.</p></>
+  <p>Os frameworks utilizados foram ReactJS para frontend e NodeJs para backend.</p><p>Em versões anteriores do programa, 
+  tive a oportunidade de participar presencialmente, como monitora de Python e ouvinte das palestras realizadas, sobre assuntos 
+  tais como desenvolvimento de jogos, como dar um pitch e empoderamento feminino.</p><img src={monitora} alt="monitora" 
+  style={{ minHeight: "25rem" }}  /></>
 );
 
 export const relatus_body = (

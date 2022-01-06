@@ -26,9 +26,9 @@ const Portfolio = () => {
           <h5>Power for Girls - Empower to Lead</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'RELATUS - parceiria com Microsoft', body: relatus_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: 'RELATUS - parceria com Microsoft', body: relatus_body });}} className="card">
           <img src={relatus} alt="relatus" />
-          <h5>RELATUS - parceiria com Microsoft</h5>
+          <h5>RELATUS - parceria com Microsoft</h5>
         </div>
 
         <div onClick={() => {setModalShow(true); setModalContent({ title: 'Cadê o  MW?', body: cadeomw_body });}} className="card">
