@@ -3,6 +3,8 @@
   "text": "#fff",
   "color": "#00b9bc",
   "light_color": "#252A2E",
+  "light_error": "#facfcf",
+  "placeholder_gray": "afafaf",
   "button": {
     "text": "#fff",
     "hover": "#038d8f"

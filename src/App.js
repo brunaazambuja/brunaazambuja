@@ -7,6 +7,7 @@ import * as themeObj from './theme/schema.json';
 import { GlobalStyles } from './theme/global';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { ToastProvider } from './hooks/toast';
 
 const Container = styled.div`
   position: relative;
@@ -28,7 +29,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Container>
-        {/* <img src={banner} alt='' className="top" /> */}
+        <ToastProvider>
           <BrowserRouter>
             <Switch>
               <Route path="/" exact>
@@ -37,7 +38,7 @@ const App = () => {
             </Switch>
             <GlobalStyles />
           </BrowserRouter>
-        {/* <img src={footer} alt='' className="bottom" /> */}
+        </ToastProvider>  
       </Container>
     </ThemeProvider>
   );

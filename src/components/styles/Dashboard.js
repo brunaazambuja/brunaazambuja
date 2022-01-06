@@ -278,7 +278,7 @@ export const PortfolioContainer = styled.div`
 `
 
 export const Footer = styled.div`
-  background-color: ${({ theme }) => theme.light_color};
+  background-color: ${({ theme }) => theme.body};
   height: 10rem;
   display: flex;
   flex-direction: column;
@@ -368,4 +368,23 @@ export const ResumeContainer = styled.section`
   }
   .left { right: 52%; }
   .right { left: 52%; }
+`
+
+export const ContactMeContainer = styled.section`
+  padding: 2rem 20% 5rem 20%;
+  background-color: ${({ theme }) => theme.light_color};
+  position: relative;
+  .form { width: 50%; margin: auto; }
+  h1 { margin-bottom: 3rem; }
+  button { 
+    background-color: ${({ theme }) => theme.color};  
+    color: ${({ theme }) => theme.text};  
+    border-radius: 15px;
+    padding: 10px 5rem;
+  }
+  @media (max-width: ${cssQuery('tablet')}) {
+    .form { width: 90%; margin: auto; }
+    padding: 2rem 2rem 5rem 2rem;
+  }
+
 `
