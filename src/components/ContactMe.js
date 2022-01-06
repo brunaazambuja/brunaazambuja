@@ -46,7 +46,6 @@ const ContactMe = () => {
       } catch (err) {
         if (err instanceof Yup.ValidationError) formRef.current?.setErrors(getValidationError(err));
 
-        console.log(err);
         addToast({
           type: 'error',
           title: 'Erro no envio.',
