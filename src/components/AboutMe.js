@@ -27,7 +27,6 @@ const AboutMe = () => {
           <h5>Informações Pessoais</h5>
           <div><strong>Graduação</strong><p>Engenharia da Computação - UnB</p></div>
           <div><strong>Data de Nascimento</strong><p>01/07/2000</p></div>
-          <div><strong>Telefone para contato</strong><p>(61) 99271-6277</p></div>
           <div><strong>E-mail</strong><p>brunazambuja@outlook.com</p></div>
           <div><strong>Nacionalidade</strong><p>Brasileira - Brasília/DF</p></div>
           <div><strong>Status</strong><span>Desenvolvedora Fullstack da Tukey Data</span></div>
