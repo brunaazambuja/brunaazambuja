@@ -7,6 +7,8 @@ import mcsft from '../assets/mcsft.png'
 import gloria from '../assets/gloria.jpeg'
 import prize_ceia from '../assets/prize_ceia.jpg'
 import monitora from '../assets/python_monitora.jpg'
+import pibic_helard from '../assets/pibic_helard.pdf'
+import pibic_bruna from '../assets/pibic_bruna.pdf'
 import deeplearning_certificate from '../assets/deeplearning_certificate.png'
 
 export const cadeomw_body = (
@@ -83,8 +85,29 @@ export const ceia_body = (
   <img src={prize_ceia} alt="prize_ceia" /></>
 );
 
-export const harvard_body = (
-  <><p>Este é um curso de 7 semanas que explora conceitos e algoritmos na fundação de inteligência artificial
+export const pibic_body = (
+  <><p>Este PIBIBC (Projeto de Iniciação Científica) desenvolvido juntamente com a professora Myléne Farias tem como objetivo principal analisar 
+  a performance de algoritmos baseados em técnicas de machine learning como autoencoder. Durante este estudo foi analisado também, em artigos distintos, 
+  o comportamento de features extraídas do autoencoder, e possíveis padrões. Ambos os estudos se apresentam nos artigos abaixo.</p>
+  <p>Uma das maiores conquistas pessoais deste estudo foi receber o prêmio de menção honrosa do CNPq após o desenvolvimento do artigo.</p>
+  <Button onClick={() => window.open(pibic_helard)}>Exploring the boundaries of an AE-based quality model</Button>
+  <Button onClick={() => window.open(pibic_bruna)}>Analyzing and Exploring Patterns on Extracted Features used on a Quality Assessment Model</Button>
+  </>
+);
+
+export const deeplearningai_body = (
+  <><h3>Deep Learning AI</h3><p>Este curso me ajudou a perceber que as redes neurais são muito mais do que eu imaginava e quero agradecer a #deeplearningai por 
+  essa experiência incrível. Quase quatro meses de muito trabalho, aproveitando a quarentena e os benefícios do home office, com foco 
+  nesta especialização.</p><p>Depois de muitas atribuições, comecei a ver realmente a importância do aprendizado de máquina hoje em dia
+  e a reconhecer que realmente é o futuro. Muito pode ser feito com este poder em suas mãos.</p><p>As atribuições variam entre criar 
+  uma pintura a partir de uma imagem; criar música a partir de um banco de dados de jazz; identificar uma imagem correspondente de uma 
+  pessoa em um banco de dados de 10 mil pessoas; identificação de objetos na rua (para carros que se dirigem sozinho, por exemplo, o algoritmo 
+  identifica pessoas, árvores e outros carros); identificando números a partir de uma imagem de linguagem de sinais e muito mais.</p><p>
+  Certa vez, um professor da Universidade de Brasília citou um escritor muito famoso, e só depois dessa especialização comecei a entendê-lo:
+  </p><strong>“Qualquer tecnologia suficientemente avançada é indistinguível da magia.” - Arthur Clarke</strong><p>
+  Ver uma inteligência artificial criando coisas inerentes ao ser humano, como arte e música, para mim, é realmente mágico.</p>
+  <img src={deeplearning_certificate} alt="deeplearning_certificate" style={{ maxHeight: "20rem" }} />
+  <p><h3>Introduction to AI - Harvard University</h3>Este é um curso de 7 semanas que explora conceitos e algoritmos na fundação de inteligência artificial
   moderna, mergulhando em ideias que dão origem a tecnologias como mecanismos
   de jogo, reconhecimento de manuscritos, e tradução automática. Através de projetos práticos, 
   estudantes ganham exposição à teoria por trás de algoritmos de busca em grafos, classificação, 
@@ -98,18 +121,4 @@ export const harvard_body = (
   </li><li>Machine Learning, training and keeping experience - supervised, reinforcement and unsupervised;</li><li>
   Neural Networks - Deep learning, Convolutional, Linear (Perceptron), Recurrent, FeedForward;</li><li>Language.</li></ul>
   <Button onClick={() => window.open('https://github.com/brunaazambuja/Harvard_AI_with_Python')}>Projetos desenvolvidos no curso</Button></>
-);
-
-export const deeplearningai_body = (
-  <><p>Este curso me ajudou a perceber que as redes neurais são muito mais do que eu imaginava e quero agradecer a #deeplearningai por 
-  essa experiência incrível. Quase quatro meses de muito trabalho, aproveitando a quarentena e os benefícios do home office, com foco 
-  nesta especialização.</p><p>Depois de muitas atribuições, comecei a ver realmente a importância do aprendizado de máquina hoje em dia
-  e a reconhecer que realmente é o futuro. Muito pode ser feito com este poder em suas mãos.</p><p>As atribuições variam entre criar 
-  uma pintura a partir de uma imagem; criar música a partir de um banco de dados de jazz; identificar uma imagem correspondente de uma 
-  pessoa em um banco de dados de 10 mil pessoas; identificação de objetos na rua (para carros que se dirigem sozinho, por exemplo, o algoritmo 
-  identifica pessoas, árvores e outros carros); identificando números a partir de uma imagem de linguagem de sinais e muito mais.</p><p>
-  Certa vez, um professor da Universidade de Brasília citou um escritor muito famoso, e só depois dessa especialização comecei a entendê-lo:
-  </p><strong>“Qualquer tecnologia suficientemente avançada é indistinguível da magia.” - Arthur Clarke</strong><p>
-  Ver uma inteligência artificial criando coisas inerentes ao ser humano, como arte e música, para mim, é realmente mágico.</p>
-  <img src={deeplearning_certificate} alt="deeplearning_certificate" style={{ maxHeight: "20rem" }} /></>
 );

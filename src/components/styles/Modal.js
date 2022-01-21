@@ -34,6 +34,6 @@ export const StyledModal = styled(Modal)`
     img { max-height: 15rem; margin: 1rem 0 2rem 0; border-radius: 10px; box-shadow: -1rem 0 3rem rgb(0 0 0 / 20%); }
 
     background: ${({ theme }) => theme.light_color};
-    strong { color: ${({ theme }) => theme.color}; }
+    strong, h3 { color: ${({ theme }) => theme.color}; }
   }
 `;

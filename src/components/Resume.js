@@ -26,7 +26,7 @@ const Resume = () => {
         <strong>Auxiliar de Pesquisa</strong> - com Menção Honrosa: UnB <p>(07/2019 - 12/2021)</p>
       </div>
       <div className="card left" style={{ top: "34rem" }}>
-        <strong>Egenheira de Software</strong> - Instituto Glória &#38; Microsoft <p>(10/2021 - atualmente)</p>
+        <strong>Engenheira de Software</strong> - Instituto Glória &#38; Microsoft <p>(10/2021 - atualmente)</p>
       </div>
       <div className="card right" style={{ top: "36rem" }}>
         <strong>Desenvolvedora Fullstack e TechLead</strong> - Tukey Data <p>(08/2021 - atualmente)</p>
