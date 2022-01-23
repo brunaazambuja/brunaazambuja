@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import cssQuery from '../../utils/responsiveQueries';
+import tile from '../../assets/logo/tile.png';
 
 export const Container = styled.div`
   color: ${({ theme }) => theme.text};
@@ -40,7 +41,12 @@ export const PresentationCard = styled.div`
 
   padding: 0 30px;
 
-  img {   
+  .logo {
+    margin-bottom: 1rem;
+    @media (max-width: ${cssQuery('phone')}) { width: 90%; } 
+
+  }
+  .me {   
     border-radius: 50%;
     height: 20rem;
     width: 20rem;
@@ -69,7 +75,7 @@ export const PresentationCard = styled.div`
   .icons {
     display: flex;
     gap: 2rem;
-    margin-top: 2.5rem;
+    margin-top: .5rem;
 
     svg {
       border-radius: 50%;
@@ -190,11 +196,12 @@ export const SkillsContainer = styled.section`
 `
 
 export const ReviewsContainer = styled.section`
-  padding: 2rem 10vw;
   position: relative;
   background-color: ${({ theme }) => theme.body};
+  background-image: url(${tile});
+  .opacity { background: rgba(20, 24, 26, 0.85); height: 100%; width: 100%; padding: 2rem 10vw; }
 
-  @media (max-width: ${cssQuery('phone')}) { padding: 2rem; } 
+  @media (max-width: ${cssQuery('phone')}) { .opacity { padding: 2rem; } } 
 
   .reviews {
     display: grid;
@@ -373,9 +380,11 @@ export const ResumeContainer = styled.section`
 `
 
 export const ContactMeContainer = styled.section`
-  padding: 2rem 20% 5rem 20%;
   background-color: ${({ theme }) => theme.light_color};
+  background-image: url(${tile});
   position: relative;
+
+  .opacity { background: rgba(20, 24, 26, 0.85); height: 100%; width: 100%; padding: 2rem 20% 5rem 20%; }
   .form { width: 50%; margin: auto; }
   h1 { margin-bottom: 3rem; }
   button { 
@@ -386,7 +395,7 @@ export const ContactMeContainer = styled.section`
   }
   @media (max-width: ${cssQuery('tablet')}) {
     .form { width: 90%; margin: auto; }
-    padding: 2rem 2rem 5rem 2rem;
+    .opacity { padding: 2rem 2rem 5rem 2rem; }
   }
 
 `

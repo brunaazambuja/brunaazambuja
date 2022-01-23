@@ -58,14 +58,16 @@ const ContactMe = () => {
   );
   return (
     <ContactMeContainer>
-      <h1>Entre em Contato!</h1>
-      <Form ref={formRef} className="form" onSubmit={handleSubmit}>
-        <Input name="name" icon={FiUser} placeholder="Nome" />
-        <Input name="email" icon={FiMail} placeholder="E-mail" />
-        <Input name="phone" mask="(99) 99999-9999" icon={FiPhone} placeholder="Telefone para Contato" />
-        <Input name="message" big icon={FiBook} placeholder="Mensagem" />
-        <Button type="submit">{loading ? <Spinner animation="grow" /> : "Enviar"}</Button>
-      </Form>
+      <div className="opacity">
+        <h1>Entre em Contato!</h1>
+        <Form ref={formRef} className="form" onSubmit={handleSubmit}>
+          <Input name="name" icon={FiUser} placeholder="Nome" />
+          <Input name="email" icon={FiMail} placeholder="E-mail" />
+          <Input name="phone" mask="(99) 99999-9999" icon={FiPhone} placeholder="Telefone para Contato" />
+          <Input name="message" big icon={FiBook} placeholder="Mensagem" />
+          <Button type="submit">{loading ? <Spinner animation="grow" /> : "Enviar"}</Button>
+        </Form>
+      </div>
       
 
     </ContactMeContainer>

@@ -3,7 +3,8 @@ import { FiMail, FiArrowUp } from 'react-icons/fi';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 import back from '../assets/vista.jpg';
-import landingMe from '../assets/perfil.jpg';
+import landingMe from '../assets/me.jpg';
+import logo from '../assets/logo/logo_horizontal.svg';
 import { Container, PresentationCard, Landing, Footer } from './styles/Dashboard';
 import Reviews from "./Reviews";
 import Skills from "./Skills";
@@ -18,8 +19,8 @@ const Dashboard = () => {
       <Landing>
         <img src={back} alt="back" className="back" />
         <PresentationCard>
-          <img src={landingMe} alt="" />
-          <h1>Bruna Azambuja</h1>
+          <img src={landingMe} alt="me" className="me" />
+          <img src={logo} alt="logo" className="logo" />
           Engenheira de Software e Entusiasta de Inteligência Artificial
           <div className="icons">
             <FaLinkedinIn onClick={() => window.open('https://br.linkedin.com/in/bruna-azambuja-756a971a5/')} /> 
