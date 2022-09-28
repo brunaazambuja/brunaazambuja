@@ -11,7 +11,7 @@ import pibic_helard from '../assets/pibic_helard.pdf'
 import pibic_bruna from '../assets/pibic_bruna.pdf'
 import deeplearning_certificate from '../assets/deeplearning_certificate.png'
 
-export const cadeomw_body = (
+export const cadeomw_body_pt = (
     <><p>O <strong>Cadê o MW?</strong> é um projeto que visa ajudar a comunidade acadêmica da Universidade 
     de Brasília em tempos de matrícula. Com a migração do sistema de
     matrícula do Matrícula Web (MW) para o SIGAA, muitos alunos se viram perdidos
@@ -30,7 +30,7 @@ export const cadeomw_body = (
     3 dias da plataforma no ar.</p></>
   );
 
-export const p4g_body = (
+export const p4g_body_pt = (
   <><p><strong>Power for Girls</strong> é uma iniciativa do <strong>Instituto Glória</strong> juntamente com 
   a <strong>Embaixada dos Estados Unidos</strong> que junta meninas do Brasil inteiro com oficinas e workshops
   sobre empoderamento feminino.</p><p>O foco do programa é o empoderamento de meninas por meio de estratégias 
@@ -45,7 +45,7 @@ export const p4g_body = (
   style={{ minHeight: "25rem" }}  /></>
 );
 
-export const relatus_body = (
+export const relatus_body_pt = (
   <><p><strong>RELATUS</strong> é uma iniciativa do <strong>Instituto Glória</strong> juntamente com 
   a <strong>Microsoft</strong> que visa ser um projeto revolucionário dentro de sua área e ajudar a melhorar políticas públicas.</p>
   <p>Nós, time voluntário de engenheiros do Instituto Glória, desenvolvemos ao longo de um mês e meio em conjunto com um time de 10 
@@ -64,7 +64,7 @@ export const relatus_body = (
   <p></p><img src={gloria} alt="gloria" style={{ maxHeight: "20rem" }} /></>
 );
 
-export const ceia_body = (
+export const ceia_body_pt = (
   <><p>Este curso é uma parceria entre a UnB e o Instituto de Informática (INF/
   UFG) e o Centro de Excelência em Inteligência Artificial (CEIA/UFG) da
   Universidade Federal de Goiás (UFG). Um curso de carga horária de 120 horas,
@@ -85,7 +85,7 @@ export const ceia_body = (
   <img src={prize_ceia} alt="prize_ceia" /></>
 );
 
-export const pibic_body = (
+export const pibic_body_pt = (
   <><p>Este PIBIBC (Projeto de Iniciação Científica) desenvolvido juntamente com a professora Myléne Farias tem como objetivo principal analisar 
   a performance de algoritmos baseados em técnicas de machine learning como autoencoder. Durante este estudo foi analisado também, em artigos distintos, 
   o comportamento de features extraídas do autoencoder, e possíveis padrões. Ambos os estudos se apresentam nos artigos abaixo.</p>
@@ -95,7 +95,7 @@ export const pibic_body = (
   </>
 );
 
-export const deeplearningai_body = (
+export const deeplearningai_body_pt = (
   <><h3>Deep Learning AI</h3><p>Este curso me ajudou a perceber que as redes neurais são muito mais do que eu imaginava e quero agradecer a #deeplearningai por 
   essa experiência incrível. Quase quatro meses de muito trabalho, aproveitando a quarentena e os benefícios do home office, com foco 
   nesta especialização.</p><p>Depois de muitas atribuições, comecei a ver realmente a importância do aprendizado de máquina hoje em dia

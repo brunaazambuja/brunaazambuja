@@ -34,10 +34,10 @@ const App = () => {
           <BrowserRouter>
             <Switch>
               <Route path="/" exact>
-                <Dashboard text={portugues} />
+                <Dashboard text={portugues} translate='pt' />
               </Route>
               <Route path="/english" exact>
-                <Dashboard text={ingles} />
+                <Dashboard text={ingles} translate='en' />
               </Route>
             </Switch>
             <GlobalStyles />

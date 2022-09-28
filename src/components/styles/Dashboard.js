@@ -22,10 +22,25 @@ export const Container = styled.div`
   p { margin-bottom: 20px; font-weight: lighter; }
 `
 
-export const TranslateButton = styled.button`
+export const TranslateButton = styled.div`
   position: absolute;
   top: 5rem;
   left: 5rem;
+  
+  a {
+    padding: 5px;
+    text-transform: none;
+    border: 0;
+    text-decoration: none;
+    
+    color: ${({ theme }) => theme.text};
+    background: transparent;
+  }
+
+  img {
+    height: 30px;
+    margin-right: 5px;
+  }
 `
 
 export const PresentationCard = styled.div`

@@ -9,9 +9,8 @@ import pibic from '../assets/pibic.png'
 import harvard from '../assets/harvard.png'
 import { PortfolioContainer } from "./styles/Dashboard";
 import Modal from "./Modal";
-import { cadeomw_body, ceia_body, deeplearningai_body, pibic_body, p4g_body, relatus_body } from "../utils/constants";
 
-const Portfolio = () => {
+const Portfolio = ({ text }) => {
 
   const [modalShow, setModalShow] = useState(false);
   const [modalContent, setModalContent] = useState(null);
@@ -19,36 +18,36 @@ const Portfolio = () => {
   return (
     <PortfolioContainer>
       <img src={shape} alt="blob" className="blob" />
-      <h1>Portfólio</h1>
+      <h1>{text.titulo}</h1>
       <div className="cards">
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Power for Girls - Empower to Lead', body: p4g_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Power for Girls - Empower to Lead', body: text.p4g_body });}} className="card">
           <img src={p4g} alt="p4g" />
           <h5>Power for Girls - Empower to Lead</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'RELATUS - parceria com Microsoft', body: relatus_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: text.relatus, body: text.relatus_body });}} className="card">
           <img src={relatus} alt="relatus" />
-          <h5>RELATUS - parceria com Microsoft</h5>
+          <h5>{text.relatus}</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Cadê o  MW?', body: cadeomw_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Cadê o  MW?', body: text.cadeomw_body });}} className="card">
           <img src={cadeomw} alt="cadeomw" />
           <h5>Cadê o  MW?</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Estudos Aplicados em Visão Computacional', body: pibic_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: text.pibic, body: text.pibic_body });}} className="card">
           <img src={pibic} alt="pibic" />
-          <h5>PIBIC - Estudos Aplicados em Visão Computacional</h5>
+          <h5>{text.pibic}</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Deep Learning Specialization + Introduction to AI - Harvard University', body: deeplearningai_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Deep Learning Specialization + Introduction to AI - Harvard University', body: text.deeplearningai_body });}} className="card">
           <img src={harvard} alt="harvard" />
           <h5>Deep Learning Specialization + Introduction to AI - Harvard University</h5>
         </div>
 
-        <div onClick={() => {setModalShow(true); setModalContent({ title: 'Centro de Excelência em Inteligência Artificial', body: ceia_body });}} className="card">
+        <div onClick={() => {setModalShow(true); setModalContent({ title: text.ceia, body: text.ceia_body });}} className="card">
           <img src={brasilmaisia} alt="brasilmaisia" />
-          <h5>Centro de Excelência em Inteligência Artificial</h5>
+          <h5>{text.ceia}</h5>
         </div>
 
       </div>

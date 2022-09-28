@@ -1,3 +1,19 @@
+import { 
+  cadeomw_body_pt, 
+  ceia_body_pt, 
+  deeplearningai_body_pt, 
+  p4g_body_pt, 
+  pibic_body_pt, 
+  relatus_body_pt, 
+} from './utils/pt_bodies';
+import { 
+  cadeomw_body_en, 
+  ceia_body_en, 
+  deeplearningai_body_en, 
+  p4g_body_en, 
+  pibic_body_en, 
+  relatus_body_en, 
+} from './utils/en_bodies';
 
 export const ingles = {
   "titulo": "Software Engineer and Artificial Intelligence Enthusiast",
@@ -50,6 +66,18 @@ export const ingles = {
     "li": "Automation Engineer - QA",
     "atualmente": "currently",
   },
+  "portfolio": {
+    "titulo": "Portfolio",
+    "relatus": "RELATUS - partnership with Microsoft",
+    "ceia": "Center of Excellence in Artificial Intelligence",
+    "pibic": "Scientific Initiation Project - Applied Studies in Computer Vision",
+    "cadeomw_body": cadeomw_body_en,
+    "ceia_body": ceia_body_en,
+    "deeplearningai_body": deeplearningai_body_en,
+    "p4g_body": p4g_body_en,
+    "pibic_body": pibic_body_en,
+    "relatus_body": relatus_body_en,
+  }
 }
 
 export const portugues = {
@@ -103,4 +131,16 @@ export const portugues = {
     "li": "Engenheira de Automação - QA",
     "atualmente": "atualmente",
   },
+  "portfolio": {
+    "titulo": "Portfólio",
+    "relatus": "RELATUS - parceria com Microsoft",
+    "ceia": "Centro de Excelência em Inteligência Artificial",
+    "pibic": "PIBIC - Estudos Aplicados em Visão Computacional",
+    "cadeomw_body": cadeomw_body_pt,
+    "ceia_body": ceia_body_pt,
+    "deeplearningai_body": deeplearningai_body_pt,
+    "p4g_body": p4g_body_pt,
+    "pibic_body": pibic_body_pt,
+    "relatus_body": relatus_body_pt,
+  }
 }

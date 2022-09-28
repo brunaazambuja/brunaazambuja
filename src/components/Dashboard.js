@@ -11,14 +11,22 @@ import Skills from "./Skills";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import eua from '../assets/eua.jpeg';
+import br from '../assets/br.jpeg';
+import { Link } from "react-router-dom";
+
 // import ContactMe from "./ContactMe";
 
-const Dashboard = ({ text }) => {
+const Dashboard = ({ text, translate = 'pt' }) => {
   return (
     <Container>
       <Landing>
         <img src={back} alt="back" className="back" />
-        <TranslateButton />
+        <TranslateButton>
+          {translate === 'en' ? 
+          (<Link to="/"><img src={br} alt="br" className="br" />Traduzir</Link>) : 
+          (<Link to="/english"><img src={eua} alt="eua" className="eua" />Translate</Link>)}
+        </TranslateButton>
         <PresentationCard>
           <img src={landingMe} alt="me" className="me" />
           <img src={logo} alt="logo" className="logo" />
@@ -35,7 +43,7 @@ const Dashboard = ({ text }) => {
       <AboutMe text={text.aboutMe} />
       <Skills text={text.skills} />
       <Reviews />
-      <Portfolio />
+      <Portfolio text={text.portfolio} />
       <Resume text={text.resume}  />
       {/* <ContactMe /> */}
 
