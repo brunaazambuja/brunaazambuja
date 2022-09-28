@@ -22,6 +22,12 @@ export const Container = styled.div`
   p { margin-bottom: 20px; font-weight: lighter; }
 `
 
+export const TranslateButton = styled.button`
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+`
+
 export const PresentationCard = styled.div`
   width: 28rem;
   height: 50%;
@@ -185,12 +191,37 @@ export const SkillsContainer = styled.section`
     justify-content: space-around;
     @media (max-width: ${cssQuery('phone')}) { flex-direction: column; } 
 
-    div {
+    .tech, .professional {
       text-align: left;
       width: 30%;
       @media (max-width: ${cssQuery('phone')}) { width: 80%; } 
+      bold { color: ${({ theme }) => theme.placeholder_gray}; }
 
       .slider { color: ${({ theme }) => theme.color}; }
+
+      .loading_title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @keyframes spinner {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .loading-spinner {
+          width: 10px;
+          height: 10px;
+          margin-left: 15px;
+          border: 10px solid #f3f3f3; /* Light grey */
+          border-top: 10px solid #383636; /* Black */
+          border-radius: 50%;
+          animation: spinner 1.5s linear infinite;
+        }
+      }
     }
   }
 `
@@ -338,10 +369,11 @@ export const Footer = styled.div`
 
 export const ResumeContainer = styled.section`
   background-color: ${({ theme }) => theme.body};
-  padding: 2rem 15%;
-  @media (max-width: ${cssQuery('tablet')}) { padding: 2rem; } 
+  background-image: url(${tile});
+  .opacity { min-height: 55rem; background: rgba(20, 24, 26, 0.85); height: 100%; width: 100%; padding: 2rem 20% 5rem 20%; }
+
   position: relative;
-  min-height: 50rem;
+  min-height: 55rem;
   strong { color: ${({ theme }) => theme.color}; }
 
   .line { 

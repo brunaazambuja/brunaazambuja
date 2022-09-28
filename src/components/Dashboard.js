@@ -5,23 +5,24 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import back from '../assets/vista.jpg';
 import landingMe from '../assets/me.jpg';
 import logo from '../assets/logo/logo_horizontal.svg';
-import { Container, PresentationCard, Landing, Footer } from './styles/Dashboard';
+import { Container, PresentationCard, Landing, Footer, TranslateButton } from './styles/Dashboard';
 import Reviews from "./Reviews";
 import Skills from "./Skills";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
-import ContactMe from "./ContactMe";
+// import ContactMe from "./ContactMe";
 
-const Dashboard = () => {
+const Dashboard = ({ text }) => {
   return (
     <Container>
       <Landing>
         <img src={back} alt="back" className="back" />
+        <TranslateButton />
         <PresentationCard>
           <img src={landingMe} alt="me" className="me" />
           <img src={logo} alt="logo" className="logo" />
-          Engenheira de Software e Entusiasta de Inteligência Artificial
+          {text.titulo}
           <div className="icons">
             <FaLinkedinIn onClick={() => window.open('https://br.linkedin.com/in/bruna-azambuja-756a971a5/')} /> 
             <FiMail onClick={() => window.open('mailto:brunazambuja@outlook.com')}/> 
@@ -31,12 +32,12 @@ const Dashboard = () => {
         </PresentationCard>
       </Landing>
 
-      <AboutMe />
-      <Skills />
+      <AboutMe text={text.aboutMe} />
+      <Skills text={text.skills} />
       <Reviews />
       <Portfolio />
-      <Resume />
-      <ContactMe />
+      <Resume text={text.resume}  />
+      {/* <ContactMe /> */}
 
       <Footer>
         <div className="up"><FiArrowUp onClick={() => window.scrollTo(0, 0)} /></div>
