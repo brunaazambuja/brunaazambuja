@@ -262,7 +262,7 @@ export const ReviewsContainer = styled.section`
       align-items: center;
       background-color: ${({ theme }) => theme.body};
       box-shadow: -1rem 0 3rem rgb(0 0 0 / 20%);
-      padding: 2rem;
+      padding: 1rem 2rem;
       border-radius: 20px;
       margin-bottom: 2rem;
 
