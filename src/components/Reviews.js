@@ -7,6 +7,7 @@ import guga from '../assets/guga.jpeg';
 import marcelo from '../assets/marcelo.jpeg';
 import yan from '../assets/yan.jpeg';
 import mario from '../assets/mario.jpeg';
+import regi from '../assets/regi.jpeg';
 import { ReviewsContainer } from './styles/Dashboard';
 
 const Reviews = () => {
@@ -45,9 +46,8 @@ const Reviews = () => {
             Espero que nossos caminhos se cruzem novamente."</p>
           </div>
           <div className="profile">
-            <img src={marcelo} alt="marcelo" />
-            <p><strong>Marcelo Fleury - Sócio Tukey Data</strong> "Nossa tech lead sempre proativa. 
-            Planejando, marcando reuniões, desenvolvendo com a gente, carregando a equipe."</p>
+            <img src={regi} alt="regi" />
+            <p><strong>Regiane Dias - Quality Assurance Coordinator and Process</strong> "A Bruna realizou um excelente trabalho fazendo automações de backend. Além disto preparou uma documentação excelente que possibilitou a passagem de conhecimento por parte de seus hard skills.</p><p>Ela deve continuar sendo essa profissional incrível que se preocupa com o time e está sempre disposta a ajudar além de ter a mente questionadora o que ajuda muito a elevar o seu nível de confiança na tarefa que para si é incumbida."</p>
           </div>
           <div className="profile">
             <img src={guga} alt="guga" />
@@ -61,7 +61,11 @@ const Reviews = () => {
             solving problems. She's very interested and dedicated to the project she works on, and when she has a 
             question she's not afraid to ask it!"</p>
           </div>
-          
+          <div className="profile">
+            <img src={marcelo} alt="marcelo" />
+            <p><strong>Marcelo Fleury - Sócio Tukey Data</strong> "Nossa tech lead sempre proativa. 
+            Planejando, marcando reuniões, desenvolvendo com a gente, carregando a equipe."</p>
+          </div>
         </div>
       </div>
     </ReviewsContainer>
