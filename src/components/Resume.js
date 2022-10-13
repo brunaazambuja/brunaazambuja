@@ -6,7 +6,7 @@ const Resume = ({ text }) => {
   return (
     <ResumeContainer>
       <div className="opacity">
-        <h1>Experiências</h1>
+        <h1>{text.titulo}</h1>
         <div className="line" />
         <div className="card left" style={{ top: "10rem" }}>
           <strong>{text.unb}</strong> GPA/IRA: 4,73 de 5 <p>(1/2018 - 9/2022)</p>

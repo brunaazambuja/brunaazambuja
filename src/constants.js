@@ -55,6 +55,7 @@ export const ingles = {
     "communication": "Communication",
   },
   "resume": {
+    "titulo": "Experiences",
     "unb": "Graduated in Computer Engineering - UnB",
     "cambridge": "Cambridge Degree:",
     "vobys": "Java Junior Intern",
@@ -120,6 +121,7 @@ export const portugues = {
     "communication": "Comunicação",
   },
   "resume": {
+    "titulo": "Experiências",
     "unb": "Formada em Engenharia de Computação - UnB",
     "cambridge": "Diploma de Cambridge:",
     "vobys": "Estagiária Java Júnior",
