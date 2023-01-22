@@ -32,10 +32,8 @@ export const ingles = {
       "email": "brunazambuja@outlook.com",
       "nacionalidade_strong": "Nationality",
       "nacionalidade": "Brazilian - Brasília/DF",
-      "status_strong": "Part Time",
-      "status": "Fullstack Developer at Tukey Data",
-      "status2_strong": "Full Time",
-      "status2": "Automation QA at Loja Integrada",
+      "status_strong": "Current Role",
+      "status": "Mid Fullstack Engineer at Hinge Health",
     },
     "interesses": {
       "titulo": "Interests",
@@ -56,7 +54,9 @@ export const ingles = {
   },
   "resume": {
     "titulo": "Experiences",
-    "unb": "Graduated in Computer Engineering - UnB",
+    "graduated_unb": "Graduated in Computer Engineering",
+    "unb": "University of Brasilia - 2022 Class",
+    "destaque": "Outstanding Honrary Certificate",
     "cambridge": "Cambridge Degree:",
     "vobys": "Java Junior Intern",
     "ynvisto_ari": "Freelancer React Js",
@@ -65,6 +65,7 @@ export const ingles = {
     "gloria_micsft": "Software Engineer",
     "tukey": "Fullstack Developer and TechLead",
     "li": "Automation Engineer - QA",
+    "hh": "Mid Fullstack Engineer",
     "atualmente": "currently",
   },
   "portfolio": {
@@ -98,10 +99,8 @@ export const portugues = {
       "email": "brunazambuja@outlook.com",
       "nacionalidade_strong": "Nacionalidade",
       "nacionalidade": "Brasileira - Brasília/DF",
-      "status_strong": "Meio Período",
-      "status": "Desenvolvedora Fullstack da Tukey Data",
-      "status2_strong": "Efetivada",
-      "status2": "QA de Automação na Loja Integrada",
+      "status_strong": "Cargo Atual",
+      "status": "Engenheira Fullstack da Hinge Health",
     },
     "interesses": {
       "titulo": "Meus Interesses",
@@ -122,7 +121,9 @@ export const portugues = {
   },
   "resume": {
     "titulo": "Experiências",
-    "unb": "Formada em Engenharia de Computação - UnB",
+    "graduated_unb": "Formada em Engenharia de Computação",
+    "unb": "Universidade de Brasilia - Turma de 2022",
+    "destaque": "Certificado de Aluna Destaque",
     "cambridge": "Diploma de Cambridge:",
     "vobys": "Estagiária Java Júnior",
     "ynvisto_ari": "Freelancer React Js",
@@ -131,6 +132,7 @@ export const portugues = {
     "gloria_micsft": "Engenheira de Software",
     "tukey": "Desenvolvedora Fullstack e TechLead",
     "li": "Engenheira de Automação - QA",
+    "hh": "Engenheira Fullstack",
     "atualmente": "atualmente",
   },
   "portfolio": {

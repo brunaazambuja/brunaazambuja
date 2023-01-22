@@ -22,7 +22,7 @@ const AboutMe = ({ text }) => {
           <div><strong>{text.info_pessoais.email_strong}</strong><p>{text.info_pessoais.email}</p></div>
           <div><strong>{text.info_pessoais.nacionalidade_strong}</strong><p>{text.info_pessoais.nacionalidade}</p></div>
           <div><strong>{text.info_pessoais.status_strong}</strong><span>{text.info_pessoais.status}</span></div>
-          <div><strong>{text.info_pessoais.status2_strong}</strong><span>{text.info_pessoais.status2}</span></div>
+          <div><p/><p> - SF California</p></div>
         </div>
         <div className="interests">
           <h5>{text.interesses.titulo}</h5>

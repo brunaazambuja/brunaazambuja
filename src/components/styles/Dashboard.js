@@ -26,6 +26,8 @@ export const TranslateButton = styled.div`
   position: absolute;
   top: 5rem;
   left: 5rem;
+
+  @media (max-width: ${cssQuery('phone')}) { top: 10px; left: 10px; } 
   
   a {
     padding: 5px;
@@ -73,6 +75,7 @@ export const PresentationCard = styled.div`
     width: 20rem;
     border: 10px solid ${({ theme }) => theme.color};
     margin-top: -50%;
+    @media (max-width: ${cssQuery('phone')}) { height: 15rem; width: 15rem; margin-top: -40%; } 
 
     transform: scale(1);
     animation: pulse 2s infinite;
@@ -385,14 +388,14 @@ export const Footer = styled.div`
 export const ResumeContainer = styled.section`
   background-color: ${({ theme }) => theme.body};
   background-image: url(${tile});
-  .opacity { min-height: 55rem; background: rgba(20, 24, 26, 0.85); height: 100%; width: 100%; padding: 2rem 20% 5rem 20%; }
+  .opacity { min-height: 65rem; background: rgba(20, 24, 26, 0.85); height: 100%; width: 100%; padding: 2rem 20% 5rem 20%; }
 
   position: relative;
-  min-height: 55rem;
+  min-height: 65rem;
   strong { color: ${({ theme }) => theme.color}; }
 
   .line { 
-    height: 35rem;
+    height: 45rem;
     width: 3px;
     background: ${({ theme }) => theme.color};
     position: absolute;
