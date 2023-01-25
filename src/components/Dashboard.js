@@ -31,7 +31,7 @@ const Dashboard = ({ text, translate = 'pt' }) => {
           <img src={landingMe} alt="me" className="me" />
           <img src={logo} alt="logo" className="logo" />
           {text.titulo}
-          <div className="icons" >
+          <div className="icons">
             <FaLinkedinIn onClick={() => window.open('https://br.linkedin.com/in/bruna-azambuja-756a971a5/')} /> 
             <FiMail onClick={() => window.open('mailto:brunazambuja@outlook.com')}/> 
             <FaGithub onClick={() => window.open('https://github.com/brunaazambuja')} /> 
