@@ -22,14 +22,18 @@ export const Container = styled.div`
   p { margin-bottom: 20px; font-weight: lighter; }
 `
 
-export const TranslateButton = styled.div`
+export const TranslateButton = styled.button`
   position: absolute;
   top: 5rem;
   left: 5rem;
+  text-transform: none;
+  border: 0;
+  text-decoration: none;
+  background: transparent;
 
   @media (max-width: ${cssQuery('phone')}) { top: 10px; left: 10px; } 
   
-  a {
+  div {
     padding: 5px;
     text-transform: none;
     border: 0;

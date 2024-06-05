@@ -16,12 +16,13 @@ import {
 } from './utils/en_bodies';
 
 export const ingles = {
+  "language": "en",
   "titulo": "Software Engineer and Artificial Intelligence Enthusiast",
   "aboutMe": {
     "titulo": "About Me",
     "first_text_strong": "Hi! I'm Bruna Azambuja",
-    "first_text": " and through this page you can learn a little more about me. I'm Brazilian, born and raised in Brasília. I'm 22 years old at the time (2022) and I have a degree in Computer Engineering from the University of Brasília - UnB. I have a high sense of organization and motivation to learn, as well as a high degree of commitment and responsibility. ",
-    "second_text": "I'm passionate about playing volleyball and I'm begining to learn footvolley. I am an Artificial Intelligence and Computer Vision enthusiast, and I intend, through computing, to defend and encourage women and girls in this area.",
+    "first_text": " and through this page you can learn a little more about me. I'm Brazilian, born and raised in Brasília. I'm 24 years old at the time (2024) and I have a degree in Computer Engineering from the University of Brasília - UnB. I have a high sense of organization and motivation to learn, as well as a high degree of commitment and responsibility. ",
+    "second_text": "I am passionate about Artificial Intelligence and Computer Vision, and I intend, through computing, to defend and encourage women and girls in this area.",
     "info_pessoais": {
       "titulo": "Personal Information",
       "graduação_strong": "University graduate",
@@ -56,7 +57,7 @@ export const ingles = {
     "titulo": "Experiences",
     "graduated_unb": "Graduated in Computer Engineering",
     "unb": "University of Brasilia - 2022 Class",
-    "destaque": "Outstanding Honrary Certificate",
+    "destaque": "Outstanding Honorary Certificate",
     "cambridge": "Cambridge Degree:",
     "vobys": "Java Junior Intern",
     "ynvisto_ari": "Freelancer React Js",
@@ -83,12 +84,13 @@ export const ingles = {
 }
 
 export const portugues = {
+  "language": "pt",
   "titulo": "Engenheira de Software e Entusiasta de Inteligência Artificial",
   "aboutMe": {
     "titulo": "Sobre mim",
     "first_text_strong": "Olá! Eu sou Bruna Azambuja",
-    "first_text": " e por meio desta página você vai poder conhecer um pouquinho mais sobre mim. Sou brasileira, nascida e criada em Brasília. Tenho 22 anos no momento (2022) e sou formada em Engenharia de Computação pela Universidade de Brasília - UnB. Possuo um elevado senso de organização e motivação para aprender, assim como um alto grau de comprometimento e responsabilidade. ",
-    "second_text": "Sou apaixonada por jogar volêi e estou me aventurando no Futvôlei. Sou entusiasta de Inteligência Artificial e Visão Computacional, e pretendo, por meio da computação, defender e incentivar mulheres e meninas nesta área.",
+    "first_text": " e por meio desta página você vai poder conhecer um pouquinho mais sobre mim. Sou brasileira, nascida e criada em Brasília. Tenho 24 anos no momento (2024) e sou formada em Engenharia de Computação pela Universidade de Brasília - UnB. Possuo um elevado senso de organização e motivação para aprender, assim como um alto grau de comprometimento e responsabilidade. ",
+    "second_text": "Sou apaixonada por Inteligência Artificial e Visão Computacional, e pretendo, por meio da computação, defender e incentivar mulheres e meninas nesta área.",
     "info_pessoais": {
       "titulo": "Informações Pessoais",
       "graduação_strong": "Graduação",

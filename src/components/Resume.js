@@ -39,7 +39,7 @@ const Resume = ({ text }) => {
           <strong>{text.destaque}</strong>{text.unb}<p>(09/2022)</p>
         </div>
         <div className="card left" style={{ top: "50rem" }}>
-          <strong>{text.hh}</strong> Hinge Health - SF California <p>(01/2023 - {text.atualmente})</p>
+          <strong>{text.hh}</strong> Hinge Health - SF California <p>(01/2023 - 07/2024)</p>
         </div>
       </div>
     </ResumeContainer>

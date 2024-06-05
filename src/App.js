@@ -8,7 +8,6 @@ import { GlobalStyles } from './theme/global';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ToastProvider } from './hooks/toast';
-import { ingles, portugues } from './constants'
 
 const Container = styled.div`
   position: relative;
@@ -34,10 +33,7 @@ const App = () => {
           <BrowserRouter>
             <Switch>
               <Route path="/" exact>
-                <Dashboard text={portugues} translate='pt' />
-              </Route>
-              <Route path="/english" exact>
-                <Dashboard text={ingles} translate='en' />
+                <Dashboard />
               </Route>
             </Switch>
             <GlobalStyles />

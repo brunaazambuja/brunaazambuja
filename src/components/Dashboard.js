@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import { FiMail, FiArrowUp } from 'react-icons/fi';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
@@ -13,19 +13,26 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import eua from '../assets/eua.jpeg';
 import br from '../assets/br.jpeg';
-import { Link } from "react-router-dom";
+import { ingles, portugues } from '../constants'
 
 // import ContactMe from "./ContactMe";
 
-const Dashboard = ({ text, translate = 'pt' }) => {
+const Dashboard = () => {
+  const [text, setText] = useState(ingles);
+
+  const handleChangeLanguage = useCallback(() => {
+    if (text.language === 'en') setText(portugues);
+    else setText(ingles);
+  }, [text]);
+
   return (
     <Container>
       <Landing>
         <img src={back} alt="back" className="back" />
-        <TranslateButton>
-          {translate === 'en' ? 
-          (<Link to="/"><img src={br} alt="br" className="br" />Traduzir</Link>) : 
-          (<Link to="/english"><img src={eua} alt="eua" className="eua" />Translate</Link>)}
+        <TranslateButton onClick={handleChangeLanguage}>
+          {text.language === 'en' ? 
+          (<div><img src={br} alt="br" className="br" />Traduzir</div>) : 
+          (<div><img src={eua} alt="eua" className="eua" />Translate</div>)}
         </TranslateButton>
         <PresentationCard>
           <img src={landingMe} alt="me" className="me" />
